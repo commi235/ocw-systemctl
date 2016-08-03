@@ -15,7 +15,7 @@ All operations should be run as root user.
       -attr "ATTRIBUTE=SVC_NAME,TYPE=string,FLAGS=REQUIRED,
              ATTRIBUTE=ACTION_SCRIPT,TYPE=string,DEFAULT_VALUE=/path/to/systemctl_agent.sh"
     ```
-4.  Add a new resource using previously specified type.  
+3.  Add a new resource using previously specified type.  
     Here I'm using tomcat to demonstrate.  
 
     ```
